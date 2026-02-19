@@ -39,7 +39,7 @@ public class AuthController {
 
     @PostMapping("/login")
     @Operation(summary = "User Login",
-            description = "Authenticates user and returns JWT token")
+            description = "Authenticates the user and returns JWT token")
     public Map<String, String> login(
             @RequestParam String username,
             @RequestParam String password) {
