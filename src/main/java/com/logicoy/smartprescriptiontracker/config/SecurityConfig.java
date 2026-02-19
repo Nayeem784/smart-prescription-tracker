@@ -14,7 +14,7 @@ import org.springframework.security.web.authentication.
         UsernamePasswordAuthenticationFilter;
 
 /**
- * Configures stateless JWT-based security.
+ * Configures stateless JWT--based security.
  */
 @Configuration
 public class SecurityConfig {
