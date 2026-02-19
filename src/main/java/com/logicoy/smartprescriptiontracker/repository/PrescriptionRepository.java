@@ -1,4 +1,4 @@
-package com.logicoy.smartprescriptiontracker.exception;
+package com.logicoy.smartprescriptiontracker.repository;
 
 import com.logicoy.smartprescriptiontracker.entity.Prescription;
 import org.springframework.data.jpa.repository.JpaRepository;
